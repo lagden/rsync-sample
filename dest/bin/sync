@@ -1,0 +1,30 @@
+#!/bin/bash
+
+THIS=$(basename $0)
+DIR="$( cd -P "$( dirname "$0" )" && pwd )"
+cd $DIR
+cd ..
+
+# Folder
+DEST=`pwd`
+SOURCE="${DEST}/../source/."
+
+echo $SOURCE
+
+# Go
+cd $DEST
+
+# Sync
+rsync $SOURCE $DEST -rav --include-from $DEST/include.rsync --exclude-from $DEST/exclude.rsync
+
+echo "                                "
+echo "< Sync done... Muuuuuooooooo!! >"
+echo "------------------------------  "
+echo "        \   ^__^                "
+echo "         \  (oo)\_______        "
+echo "            (__)\       )\/\    "
+echo "                ||----w |       "
+echo "                ||     ||       "
+echo "                                "
+
+exit 0

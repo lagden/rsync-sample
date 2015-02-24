@@ -1,4 +1,7 @@
-dest/**/*
-!dest/bin/*
-!dest/exclude.rsync
-!dest/include.rsync
+/*
+!/source
+!/dest
+/dest/*
+!/dest/exclude.rsync
+!/dest/include.rsync
+!/dest/bin
