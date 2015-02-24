@@ -1,4 +1,4 @@
 dest/**/*
-!dest/bin/sync
+!dest/bin/*
 !dest/exclude.rsync
 !dest/include.rsync

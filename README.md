@@ -5,7 +5,7 @@ Neste exemplo, o `rsync` copiará todos os arquivos, diretórios e subdiretório
 
 ## Propósito
 
-O propósito é copiar alguns arquivos e pasta para o destino com mais agilidade, evitando que sobrescreva arquivos ou pastas não desejadas.
+O propósito é apenas sincronizar alguns arquivos e pasta para o destino com mais agilidade, evitando que sobrescreva arquivos ou pastas não desejadas.
 
 ## Uso
 
