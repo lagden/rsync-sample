@@ -15,7 +15,7 @@ O propósito é apenas sincronizar alguns arquivos e pasta para o destino com ma
     
 ## Bastidores
 
-O `rsync` da seguinte maneira:
+O `rsync` funciona da seguinte maneira:
     
     rsync SOURCE DEST -rav --include-from include.rsync --exclude-from exclude.rsync
     
