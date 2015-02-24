@@ -22,7 +22,7 @@ O `rsync` funciona da seguinte maneira:
 1. Ele irá ignorar todos os arquivos e pasta. Ver `pattern` no `exclude.rsync`
 2. Depois incluirá apenas os arquivos e pastas definidos no `include.rsync`
 
-Bem simples!! Assim você terá apenas os arquivos e pastas.
+Bem simples!! Assim você terá apenas os arquivos e pastas desejados.
 
 
 ## Contributors
